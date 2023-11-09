@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Open+Sans&display=swap');
+
+
+.updateProfileContainer {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    position: fixed;
+    top: 0%;
+    left: 0;
+  }
+.impnote{
+  font-size: large;
+}
+
+#myanger{
+  font-size: 23px;
+  border: 2px solid red;
+  border-radius: 100%;
+  padding: 6px 13px 7px 13px;
+  
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+  
+  .updateProfileBox {
+    background-color: white;
+    width: 25vw;
+    height: 70vh;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .updateProfileHeading {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.664);
+    font-family: 'Manrope', sans-serif;
+    font-size: 22px;
+    padding: 1.3vmax;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+    width: 50%;
+    margin: auto;
+  }
+  
+  .updateProfileForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 2vmax;
+    justify-content: space-evenly;
+    height: 85%;
+    transition: all 0.5s;
+  }
+  
+  .updateProfileForm > div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .updateProfileForm > div > input {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    outline: none;
+  }
+  
+  .updateProfileForm > div > svg {
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6vmax;
+    color: rgba(0, 0, 0, 0.623);
+  }
+  
+  #updateProfileImage > img {
+    width: 3vmax;
+    border-radius: 100%;
+    margin: 1vmax;
+  }
+  #updateProfileImage > input {
+    display: flex;
+    padding: 0%;
+  }
+  
+  #updateProfileImage > input::file-selector-button {
+    cursor: pointer;
+    width: 100%;
+    z-index: 2;
+    height: 5vh;
+    border: none;
+    margin: 0%;
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    transition: all 0.5s;
+    padding: 0 1vmax;
+    color: rgba(0, 0, 0, 0.623);
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #updateProfileImage > input::file-selector-button:hover {
+    background-color: rgb(235, 235, 235);
+  }
+  
+  .updateProfileBtn {
+    border: none;
+    background-color: orange;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    padding: 0.8vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+  }
+  
+  .updateProfileBtn:hover {
+    background-color: rgb(179, 66, 46);
+  }
+  
+  @media screen and (max-width: 899px) {
+    .updateProfileContainer {
+      background-color: white;
+      margin-top: 11%;
+    }
+    .updateProfileBox {
+      width: 100vw;
+      height: 95vh;
+    }
+  
+    .updateProfileForm {
+      padding: 4vmax 13vmax 21vmax 13vmax
+    }
+  
+    .updateProfileForm > div > input {
+      padding: 2.5vmax 5vmax;
+      font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    }
+  
+    .updateProfileForm > div > svg {
+      font-size: 2.8vmax;
+    }
+  
+    #updateProfileImage > img {
+      width: 8vmax;
+      border-radius: 100%;
+    }
+  
+    #updateProfileImage > input::file-selector-button {
+      height: 7vh;
+      font-family: 'Manrope', sans-serif;
+      font-size: 20px;
+    }
+  
+    .updateProfileBtn {
+      font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+      padding: 1.8vmax;
+    }
+  }
+
+  @media screen and (max-width: 477px) {
+  .updateProfileForm {
+    padding: 13vmax 2vmax 16vmax 2vmax;
+  
+}
+.updateProfileHeading {
+
+
+  padding: 5.3vmax 1.3vmax 1.3vmax 1.3vmax
+}
+
+  }

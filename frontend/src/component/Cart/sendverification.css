@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Open+Sans&display=swap');
+
+.email-verification-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.email-verification-box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.email-verification-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.email-verification-box input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.email-verification-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.email-verification-button {
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.email-verification-button.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+@media (max-width: 899px) {
+  .email-verification-box {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 799px) {
+  .email-verification-box {
+    max-width: 300px;
+  }
+
+  .email-verification-button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 499px) {
+  .email-verification-box {
+    padding: 20px;
+  }
+
+  .email-verification-title {
+    font-size: 20px;
+  }
+
+  .email-verification-box input[type="email"] {
+    font-size: 12px;
+  }
+
+  .email-verification-text {
+    font-size: 14px;
+  }
+
+  .email-verification-button {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+}

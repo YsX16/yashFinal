@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600&display=swap');
+
+
+.confirmOrderPage {
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+  }
+
+  #suprise{
+    margin-right: 18px;
+  }
+
+#conformed-product{
+  margin: 10px;
+}
+  #conforms-span{
+    margin-left: 12px;
+    margin-bottom: 12px;
+  }
+
+  .confirmOrderPage > div:last-child {
+    border-left: 1px solid rgba(0, 0, 0, 0.247);
+  }
+  
+  .confirmshippingArea {
+    padding: 2vmax;
+    padding-bottom: 0%;
+  }
+  
+  .confirmshippingArea > p {
+  color: orange;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .confirmshippingAreaBox,
+  .confirmCartItemsContainer {
+    margin: 2vmax;
+  }
+  
+  .confirmshippingAreaBox > div {
+    display: flex;
+    margin: 1vmax 0;
+  }
+  
+  .confirmshippingAreaBox > div > p {
+    
+    color: black;
+  }
+  .confirmshippingAreaBox > div > span {
+    margin: 15px 1vmax;
+    font-family: 'League Spartan', sans-serif;
+    color: #575757;
+  }
+  
+  .confirmCartItems > p {
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .confirmCartItems {
+    padding: 5vmax;
+    padding-top: 2vmax;
+  }
+  
+  .confirmCartItemsContainer {
+    max-height: 20vmax;
+    overflow-y: auto;
+  }
+  
+  .confirmCartItemsContainer > div {
+    display: flex;
+    font-family: 'League Spartan', sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2vmax 0;
+  }
+  
+  .confirmCartItemsContainer > div > img {
+    width: 3vmax;
+  }
+  
+  .confirmCartItemsContainer > div > a {
+    color: #575757;
+    margin: 0 2vmax;
+    width: 60%;
+    text-decoration: none;
+  }
+  
+  .confirmCartItemsContainer > div > span {
+    font-family: 'League Spartan', sans-serif;
+    color: #5e5e5e;
+  }
+  
+  .orderSummary {
+    padding: 7vmax;
+  }
+  
+  .orderSummary > p {
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.267);
+    padding: 1vmax;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  
+  .orderSummary > div > div {
+    display: flex;
+    font-family: 'League Spartan', sans-serif;
+    justify-content: space-between;
+    margin: 2vmax 0;
+  }
+  .orderSummary > div > div > span {
+    color: rgba(0, 0, 0, 0.692);
+  }
+
+  #checkoutbutton{
+    padding: 12px;
+    color: black;
+    border-radius: unset;
+    border: 1px solid black;
+    background-color: white;
+  }
+  #conformbuttondiv{
+  text-align: center;
+  margin-bottom: 12px;
+  }
+  
+  .orderSummaryTotal {
+    display: flex;
+    font-family: 'League Spartan', sans-serif;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.363);
+    padding: 2vmax 0;
+  }
+  
+  .orderSummary > button {
+    background-color: orange;
+    color: white;
+    width: 100%;
+    padding: 1vmax;
+    border: none;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .orderSummary > button:hover {
+    background-color: rgb(192, 71, 50);
+  }
+  @media screen and (max-width: 899px) {
+
+  .orderSummary {
+    padding: 1vmax;
+}
+}
+  
+  @media screen and (max-width: 600px) {
+    .confirmOrderPage {
+      grid-template-columns: 1fr;
+      height: unset;
+    }
+  
+    .confirmOrderPage > div:last-child {
+      border-left: 0;
+      border-top: 1px solid rgba(0, 0, 0, 0.247);
+    }
+  
+    .confirmshippingArea > p {
+        font-family: 'League Spartan', sans-serif;
+    }
+  
+    .confirmshippingAreaBox > div {
+      display: flex;
+      margin: 6vw 0;
+    }
+  
+    .confirmshippingAreaBox > div > p {
+        font-family: 'League Spartan', sans-serif;
+    }
+    .confirmshippingAreaBox > div > span {
+        font-family: 'League Spartan', sans-serif;
+    }
+  
+    .confirmCartItems > p {
+        font-family: 'League Spartan', sans-serif;
+    }
+  
+    .confirmCartItemsContainer {
+      max-height: 50vw;
+    }
+  
+    .confirmCartItemsContainer > div {
+        font-family: 'League Spartan', sans-serif;
+      margin: 4vw 0;
+    }
+  
+    .confirmCartItemsContainer > div > img {
+      width: 10vw;
+    }
+    .confirmCartItemsContainer > div > a {
+      margin: 0;
+      width: 54%;
+  }
+    .confirmCartItemsContainer > div > span {
+        font-family: 'League Spartan', sans-serif;
+    }
+  
+    .orderSummary {
+      padding: 12vw;
+    }
+  
+    .orderSummary > p {
+        font-family: 'League Spartan', sans-serif;
+      padding: 4vw;
+      font-size: x-large;
+    }
+  
+    .orderSummary > div > div {
+        font-family: 'League Spartan', sans-serif;
+    }
+  
+    .orderSummaryTotal {
+        font-family: 'League Spartan', sans-serif;
+      padding: 5vw 0;
+    }
+  
+    .orderSummary > button {
+      padding: 4vw;
+      margin: 4vw auto;
+      font-family: 'League Spartan', sans-serif;
+      
+    }
+  }

@@ -1,0 +1,32 @@
+.categorychoose{
+  padding: 12px;
+
+  margin-bottom: 8px;
+}
+
+.categorychoose select{
+  padding: 12px;
+  
+}
+
+.imgselecter input::file-selector-button {
+
+    cursor: pointer;
+    width: 100%;
+    z-index: 2;
+    height: 5vh;
+    border: none;
+    margin: 0%;
+    
+    transition: all 0.5s;
+    padding: 0 1vmax;
+    color: rgba(0, 0, 0, 0.623);
+    background-color: rgb(255, 255, 255);
+  
+}
+
+img {
+  width: 3vmax;
+  margin: 0 0.5vmax;
+}
+

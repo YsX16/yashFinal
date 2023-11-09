@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600&display=swap');
+
+
+body {
+  font-family: Arial, sans-serif;
+  
+  background-size: cover;
+  height: 100vh;
+}
+
+#speicalss{
+  margin-left: 11px;
+}
+
+.borderofcartitems{
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+
+#cartitemsimg{
+  margin-bottom: 12px;
+ 
+}
+
+.MuiStepper-alternativeLabel {
+  align-items: flex-start;
+  overflow-x: auto;
+}
+
+.MuiStepper-root {
+  display: flex;
+  padding: 4px;
+}
+
+
+#spanborderbottom{
+  border-bottom: 1px solid grey;
+}
+
+body {
+  font-family: Arial, sans-serif;
+
+  background-size: cover;
+  height: 100vh;
+}
+
+
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+#totalprice{
+  margin-left: 25px;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid white;
+  border-radius: 9px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  background: orange;
+}
+.button:hover {
+  background: orange;
+}
+#cancel-order {
+  border-radius: 5px;
+  background-color: white;
+  color: red;
+  border: 1px solid black;
+  padding: 12px 22px;
+}
+#cancel-div{
+  text-align: center;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: 'League Spartan', sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+.orderDetailsPage {
+    background-color: white;
+  }
+  h1{
+    color: orange;
+  }
+  
+  #helloreader{
+    border-top: 1px solid black;
+  }
+  
+  .orderDetailsContainer > h1 {
+    font-family: 'League Spartan', sans-serif;
+    margin: 8vmax 0;
+    font-size: 24px;
+    color: orange;
+}
+  
+  .orderDetailsContainer {
+    padding: 2vmax;
+    padding-bottom: 0%;
+    text-align: center;
+  }
+  
+  .orderDetailsContainer > p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 23px;
+    text-align: justify;
+}
+
+  
+  .orderDetailsContainerBox,
+  .orderDetailsCartItemsContainer {
+    margin: 2vmax;
+  }
+  
+  .orderDetailsContainerBox > div {
+    display: flex;
+    margin: 1vmax 0;
+  }
+  
+  .orderDetailsContainerBox > div > p {
+font-family: 'League Spartan', sans-serif;
+    color: black;
+  }
+  .orderDetailsContainerBox > div > span {
+    margin: 0 1vmax;
+font-family: 'League Spartan', sans-serif;
+    color: #575757;
+  }
+  
+  .orderDetailsCartItems > p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: orange;
+  }
+  
+  .orderDetailsCartItems {
+    padding: 2vmax 1vmax;
+    
+    
+  }
+  
+  .orderDetailsCartItemsContainer > div {
+    display: flex;
+font-family: 'League Spartan', sans-serif;
+    align-items: center;
+    margin: 2vmax 0;
+  }
+  
+  .orderDetailsCartItemsContainer > div > img {
+    width: 3vmax;
+  }
+  
+  .orderDetailsCartItemsContainer > div > a {
+    color: #575757;
+   
+   
+    text-decoration: none;
+  }
+  
+  .orderDetailsCartItemsContainer > div > span {
+font-family: 'League Spartan', sans-serif;
+    color: #5e5e5e;
+  }
+
+  .content button{
+    padding: 8px;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .orderDetailsContainer > p {
+      font-family: 'League Spartan', sans-serif;
+    font-size: 22px;
+    
+    color: orange;
+    }
+    .orderDetailsContainerBox > div {
+      margin: -2vw 0;
+    }
+  
+    .orderDetailsContainerBox > div > p {
+font-family: 'League Spartan', sans-serif;
+    }
+    .orderDetailsContainerBox > div > span {
+font-family: 'League Spartan', sans-serif;
+    }
+  
+    .orderDetailsCartItems > p {
+font-family: 'League Spartan', sans-serif;
+    }
+  
+    .orderDetailsCartItemsContainer > div {
+font-family: 'League Spartan', sans-serif;
+      margin: auto;
+    }
+  
+    .orderDetailsCartItemsContainer > div > img {
+      width: 16vw;
+    }
+  
+  
+  
+    .orderDetailsCartItemsContainer > div > span {
+font-family: 'League Spartan', sans-serif;
+    }
+  }

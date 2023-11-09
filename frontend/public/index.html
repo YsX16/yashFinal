@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Clothing Brand Which Sells Amazing products "
+    />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.4.0/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>Fashionboi</title>
+  </head>
+  <body onload="hello()">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root" onload="hello()"></div>
+
+    <script>
+      const hello = function () {
+        const bar = document.getElementById("bar");
+        const nav = document.getElementById("navbar");
+        const close = document.getElementById("close");
+
+        if (bar) {
+          bar.addEventListener("click", () => {
+            nav.classList.add("active");
+          });
+        }
+
+        if (close) {
+          close.addEventListener("click", () => {
+            nav.classList.remove("active");
+          });
+        }
+        var coll = document.getElementsByClassName("collapsibles");
+        var colls = document.getElementsByClassName("collapsiblestwo");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var contents = this.nextElementSibling;
+            if (contents.style.maxHeight) {
+              contents.style.maxHeight = null;
+            } else {
+              contents.style.maxHeight = contents.scrollHeight + "px";
+            }
+          });
+        }
+
+        for (i = 0; i < colls.length; i++) {
+          colls[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var contents = this.nextElementSibling;
+            if (contents.style.maxHeight) {
+              contents.style.maxHeight = null;
+            } else {
+              contents.style.maxHeight = contents.scrollHeight + "px";
+            }
+          });
+        }
+
+       
+      };
+    </script>
+  </body>
+</html>

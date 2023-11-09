@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Open+Sans&display=swap');
+
+.paymentContainer {
+    display: grid;
+    place-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 51vh;
+    margin: 2vmax;
+  }
+  .maakichuuut{
+    margin: auto;
+    display: block;
+    border: none;
+    background-color: white;
+    position: sticky;
+  }
+  #paypal-button-container{
+    width: 14%;
+    margin: auto;
+  }
+  .paymentForm {
+    width: 22%;
+    height: 100%;
+  }
+  
+  #idontkow{
+    color: orange;
+    margin: 15px 0px;
+    text-align: center;
+  }
+  .paymentForm > p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.753);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+    padding: 1vmax 0;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .paymentForm > div {
+    display: flex;
+    align-items: center;
+    margin: 2vmax 0;
+  }
+  
+  .paymentInput {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .paymentForm > div > svg {
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6vmax;
+    color: rgba(0, 0, 0, 0.623);
+  }
+  
+  .paymentFormBtn {
+    border: none;
+    background-color: orange;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    padding: 0.8vmax;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+  }
+  
+  .paymentFormBtn:hover {
+    background-color: orangered;
+  }
+  @media screen and (max-width: 899px) {
+  .paymentForm {
+    width: 40%;
+    height: 100%;
+}
+
+#paypal-button-container{
+  width: 26%;
+  
+}
+
+.paymentContainer {
+  display: grid;
+  place-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 30vh;
+  margin: 2vmax;
+  position: sticky;
+}
+  }
+  
+  @media screen and (max-width: 600px) {
+    .paymentForm {
+      width: 90%;
+    }
+    .paymentContainer {
+      display: grid;
+      place-items: center;
+      background-color: rgb(255, 255, 255);
+      height: 49vh;
+      margin: 2vmax;
+  }
+    .paymentForm > p {
+      font-family: 'Manrope', sans-serif;
+      font-size: 20px;
+      padding: 4vw 0;
+      width: 60%;
+    }
+  
+    .paymentForm > div {
+      margin: 10vw 0;
+    }
+  
+    .paymentInput {
+      padding: 4vw 10vw;
+    }
+  
+    .paymentForm > div > svg {
+      font-size: 6vw;
+    }
+
+    #paypal-button-container{
+      width: 47%;
+      
+    }
+    
+  
+    .paymentFormBtn {
+      font-family: 'Manrope', sans-serif;
+      font-size: 20px;
+      padding: 4vw;
+    }
+
+    .paypal{
+      padding: 12px;
+      border: 1px solid;
+      border-radius: 11px;
+      margin: 0 30%;
+    }
+
+    .paypal img{
+      width: 50%;
+      height: 40%;
+    }
+  }
+
+  @media screen and (max-width: 361px) {
+    .paymentContainer {
+      display: grid;
+      place-items: center;
+      background-color: rgb(255, 255, 255);
+      height: 54vh;
+      margin: 2vmax;
+      font-family: 'Manrope', sans-serif;
+  }
+  #paypal-button-container{
+    width: 53%;
+    
+  }
+  }

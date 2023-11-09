@@ -1,0 +1,91 @@
+.hiyahsu{
+    
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    
+}
+
+.showall{
+  color: orangered;
+  font-weight: 400;
+  font-size: 17px;
+  padding: 12px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid darkgrey;
+  margin: 9px -18px;
+  border-radius: unset;
+}
+
+i{
+    margin: 5px;
+}
+.speedDial {
+   
+    right: 3vmax;
+    top: 3vmax;
+  }
+  
+  .speedDialIcon {
+    width: 69px;
+    height: 69px;
+    border-radius: 100%;
+    border: 3px solid white;
+  }
+
+  @media (max-width:799px){
+    
+    .hiyahsu {
+      position: absolute;
+      left: 0px;
+      top: 330px;
+      right: 160px;
+  }
+
+  .showall {
+    color: orangered;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px;
+    background-color: white;
+    border-radius: unset;
+    border: 1px solid darkgrey;
+    margin: 9px -18px;
+}
+
+
+
+
+  }
+
+
+
+  @media (max-width:499px){
+    .hiyahsu {
+      position: absolute;
+      left: 0px;
+      top: 330px;
+      right: 153px;
+  }
+  }
+
+  #cartquantity{
+    border: 5px solid orange;
+    background-color: orange;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    
+    font-size: 15px;
+    left: 250px;
+    top: 33px;
+        padding: 1px 5px 0px 5px;
+   
+  }
+
+  
+  .cartitemquantity{
+    position: absolute;
+    z-index: 50;
+  }
